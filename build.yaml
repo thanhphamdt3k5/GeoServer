@@ -1,0 +1,9 @@
+build_from:
+  amd64: ghcr.io/home-assistant/amd64-base:3.21
+  aarch64: ghcr.io/home-assistant/aarch64-base:3.21
+
+labels:
+  org.opencontainers.image.title: "GeoServer"
+  org.opencontainers.image.description: "Cell Tower Geo Location Server"
+  org.opencontainers.image.source: "https://github.com/thanhphamdt3k5/GeoServer"
+  org.opencontainers.image.licenses: "MIT"

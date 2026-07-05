@@ -1,0 +1,60 @@
+name: GeoServer
+
+slug: geoserver
+
+version: "1.0.0"
+
+description: Cell Tower Geo Location Server
+
+url: https://github.com/thanhphamdt3k5/GeoServer
+
+startup: application
+
+boot: auto
+
+init: false
+
+arch:
+  - amd64
+  - aarch64
+
+ports:
+  8099/tcp: 8099
+
+ports_description:
+  8099/tcp: GeoServer REST API
+
+host_network: false
+
+ingress: false
+
+map:
+  - share:rw
+
+options:
+
+  db_host: core-mariadb
+
+  db_port: 3306
+
+  db_user: geoserver
+
+  db_password: geoserver
+
+  db_name: geoserver
+
+  log_level: info
+
+schema:
+
+  db_host: str
+
+  db_port: port
+
+  db_user: str
+
+  db_password: password
+
+  db_name: str
+
+  log_level: list(trace|debug|info|warning|error)

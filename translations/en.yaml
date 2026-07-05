@@ -1,0 +1,29 @@
+configuration:
+
+  db_host:
+    name: Database Host
+    description: MariaDB hostname
+
+  db_port:
+    name: Database Port
+    description: MariaDB port
+
+  db_user:
+    name: Database User
+    description: Database username
+
+  db_password:
+    name: Database Password
+    description: Database password
+
+  db_name:
+    name: Database Name
+    description: Database name
+
+  log_level:
+    name: Log Level
+    description: Logging level
+
+network:
+
+  8099/tcp: GeoServer REST API
