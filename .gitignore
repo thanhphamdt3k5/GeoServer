@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Build
+dist/
+build/
+
+# Docker
+*.tar
+
+# Home Assistant
+*.storage
+
+# Cache
+.cache/
